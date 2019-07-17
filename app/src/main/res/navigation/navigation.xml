@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/plantasia_fragment">
+
+    <fragment
+        android:id="@+id/plantasia_fragment"
+        android:name="com.plantasia.plantdiary.PlantasiaFragment"
+        tools:layout="@layout/fragment_plantasia">
+        <action
+            android:id="@+id/action_plantasia_fragment_to_newPlantFragment"
+            app:destination="@id/new_plant_fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/new_plant_fragment"
+        android:name="com.plantasia.plantinfo.NewPlantFragment"
+        tools:layout="@layout/fragment_new_plant">
+        <action
+            android:id="@+id/action_new_plant_fragment_to_plantasia_fragment"
+            app:destination="@id/plantasia_fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/infoFragment"
+        android:name="com.plantasia.InfoFragment"
+        tools:layout="@layout/fragment_info" />
+</navigation>

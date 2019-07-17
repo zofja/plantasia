@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <string name="app_name">Plantasia</string>
+    <string name="cleared_message">Bye, plants.</string>
+    <string name="new_plant_name">Plant Diary</string>
+    <string name="add_button_text">Add</string>
+    <string name="info">Plantasia is an app made to remind you when to water your plants.</string>
+    <string name="menu_info_item">Info</string>
+    <string name="plant_s_name">Name of the plant:</string>
+    <string name="inspiration">Name is inspired by Mort Garson\'s album Mother Earth\'s Plantasia (1976) which was meant to help plants grow.</string>
+    <string name="watering_date">Next watering date:</string>
+
+</resources>
