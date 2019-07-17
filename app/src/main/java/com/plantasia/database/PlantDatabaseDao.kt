@@ -11,10 +11,10 @@ import androidx.room.Update
 interface PlantDatabaseDao {
 
     @Insert
-    fun insert(night: Plant)
+    fun insert(plant: Plant)
 
     @Update
-    fun update(night: Plant)
+    fun update(plant: Plant)
 
     @Query("SELECT * from plants WHERE plantId = :key")
     fun get(key: Long): Plant
